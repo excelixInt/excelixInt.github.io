@@ -270,7 +270,6 @@ nav {
   font-weight: 800;
   letter-spacing: 0.04em;
   color: #fff;
-  transform: rotate(-3deg);
   transform-origin: left center;
 }
 
@@ -294,6 +293,11 @@ nav {
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+}
+
+.special-thanks {
+  font-size : 15px;
+  padding-bottom: 20px;
 }
 
 .badges {
