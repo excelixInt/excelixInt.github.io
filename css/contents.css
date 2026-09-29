@@ -1,0 +1,113 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border:1px solid rgba(255, 255, 255, 0.828)
+  }
+  .hero-text {
+    font-size: 3rem;
+    span {
+      color: blue;
+      background: rgba(0, 0, 0, 0.286);
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+    }
+  }
+}
+
+.introduction {
+  background: rgba(0, 0, 73, 0.227);
+  padding: 1rem;
+  span {
+    color:rgb(90, 90, 254);
+  }
+}
+
+.my-stuff {
+  background: rgba(0, 25, 79, 0.203);
+  padding: 1rem;
+  span {
+    color:rgb(90, 90, 254)
+  }
+  .stuff-collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.046);
+  }
+}
+
+.gallery {
+  background: rgba(0, 14, 53, 0.194);
+  padding: 1rem;
+  span {
+    color:rgb(90, 90, 254)
+  }
+}
+
+.card {
+  .title-card {
+    text-align: center;
+    line-height: 2rem;
+  }
+  img {
+    height: auto;
+  }
+  flex: 1 1 10rem;
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+.badges {
+  display: flex;
+  flex-direction: column;
+  .friend-badge , .my-badge{
+    .badge-title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      line-height: 3rem;
+    }
+    .badge-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap:0.3rem;
+      .badge {
+        width: 8rem;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.06) translateY(-0.5rem);
+        }
+      }
+    }
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+  }
+  .my-badge .badge-group {
+    flex-direction: column;
+  }
+}
+
+.badge-code {
+  width: 100%;
+  min-width: 0;
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  resize: none;
+}

@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+    gap:0.5rem;
+  }
+  .profile-container {
+    display: none;
+  }
+  .social-links {
+    gap:0.5rem
+  }
+  .social-link {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    .hero-text {
+      font-size: 1.2rem;
+      padding: 1.5rem;
+    }
+    img {
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
